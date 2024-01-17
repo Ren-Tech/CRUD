@@ -4,12 +4,91 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f8f9fa;
+    margin: 0;
+    background-color: #186ED1;
+    font-family: 'Arial', sans-serif; 
 }
 
 .container {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    
+
 }
+
+.card-header {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.text-center-buttons {
+    text-align: center;
+}
+
+.text-center-buttons button,
+.text-center-buttons a.btn {
+    display: inline-block;
+    margin: 0 10px;
+}
+.crud-letter {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.crud-word {
+    font-size: 14px;
+    color: #333;
+}
+
+.crud-icon {
+    font-size: 18px;
+    color: #333;
+}
+
+.crud-container {
+    margin-top: 20px;
+}
+
+.crud-item {
+    margin-bottom: 10px;
+}
+
+.crud-letter {
+    font-size: 46px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.crud-word {
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+.crud-icon-container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.crud-icon {
+    font-size: 18px;
+    color: #11cf4a;
+}
+
+.crud-container {
+    margin-top: 20px;
+}
+
+.crud-item {
+    margin-bottom: 10px;
+}
+
+
